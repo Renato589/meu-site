@@ -1,0 +1,104 @@
+/* Estilo geral */
+body {
+  color: white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container principal */
+.container {
+  padding: 0px 50px;
+}
+
+/* Navegação */
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 16px;
+  background-color: #0d0d0d;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+a {
+  color: #1da1f2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Imagem de perfil */
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #1da1f2;
+}
+
+/* Centralização */
+.center {
+  text-align: center;
+}
+
+/* Títulos */
+h1 {
+  color: #1da1f2;
+  font-size: 2.5em;
+  margin: 10px 0 0;
+}
+
+h2 {
+  color: #ccc;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+h3 {
+  color: #1da1f2;
+  margin-bottom: 8px;
+  font-size: 1.4em;
+}
+
+/* Seções do conteúdo */
+main section {
+  margin-bottom: 30px;
+}
+
+/* Rodapé */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  flex-direction: column;
+}
+
+/* Link do LinkedIn no rodapé */
+footer a {
+  color: #1da1f2;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Imagem do LinkedIn */
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+/* Texto abaixo da imagem */
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
